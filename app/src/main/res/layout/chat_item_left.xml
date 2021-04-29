@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="5dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/card22"
+        app:cardCornerRadius="60dp"
+        android:layout_centerVertical="true"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:srcCompat="@tools:sample/avatars"
+
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <RelativeLayout
+        android:id="@+id/totalMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/message_left"
+        android:maxWidth="270dp"
+        android:minWidth="50dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_toRightOf="@+id/card22"
+
+        >
+
+
+
+        <TextView
+            android:id="@+id/msgtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="This is a message."
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

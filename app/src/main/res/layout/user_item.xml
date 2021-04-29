@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:backgroundTint="#FFFBEE"
+    android:layout_margin="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/card22"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="60dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                tools:srcCompat="@tools:sample/avatars"
+
+                />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/card22"
+            android:fontFamily="@font/delius_swash_caps"
+            android:text="TextView"
+            android:textColor="@color/theme"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginLeft="27dp"
+            android:layout_toRightOf="@+id/card22"
+            android:fontFamily="sans-serif-medium"
+            android:text="online"
+            android:layout_marginTop="-5dp"
+            android:textColor="#11CA19"
+            android:textSize="15sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/card22"
+            android:fontFamily="sans-serif-medium"
+            android:text="Offline"
+            android:textSize="15sp"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

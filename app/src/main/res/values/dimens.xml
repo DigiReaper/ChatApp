@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="design_navigation_icon_size" tools:override="true">10dp</dimen>
+    <dimen name="listPreferredItemPaddingRight" tools:override="true">10</dimen>
+
+
+</resources>

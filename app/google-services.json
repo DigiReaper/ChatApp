@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "845886321173",
+    "firebase_url": "https://chatapp-adithya.firebaseio.com",
+    "project_id": "chatapp-adithya",
+    "storage_bucket": "chatapp-adithya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845886321173:android:79481a587cfa537af4941c",
+        "android_client_info": {
+          "package_name": "developer.adithya.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845886321173-m752opfk8srma7ackt9ejnbsle15du60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0LzPA6QPfu1-JpFIExVIVd_G0Wev0PqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845886321173-m752opfk8srma7ackt9ejnbsle15du60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
